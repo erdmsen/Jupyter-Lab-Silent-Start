@@ -14,10 +14,12 @@ Write these into a text file and save it with vbs extension (or just use the vbs
       Set WShell = Nothing
     }
 ## 2- Create the shortcut
-It is done, lab can be run directly with this file. But if you need some nice shortcut for a pin to taskbar (this script can't be pinned directly) you need to use "wscript.exe" (a standart windows system file). Create the shortcut then write this into the "Target" field of shortcut:
+It is done, lab can be run directly with this file. But if you need some nice shortcut for a pin to taskbar (this script can't be pinned directly) you need to use "wscript.exe" (a standart windows system file). Create the shortcut then write into the "Target" field of shortcut.
+
+example:
 
     {
-    C:\Windows\System32\wscript.exe "C:\Python\nb\JLab_silent.vbs"
+    C:\Windows\System32\wscript.exe "....\JLab_silent.vbs"
     }
 
 I would recommend for "Start In" field to choose a path where you will keep your notebooks or you can just place the script there.
