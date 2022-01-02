@@ -19,7 +19,7 @@ It is done, lab can be run directly with this file. But if you need some nice sh
 example:
 
     {
-    C:\Windows\System32\wscript.exe "....\JLab_silent.vbs"
+    C:\Windows\System32\wscript.exe "...<your path>...\JLab_silent.vbs"
     }
 
 I would recommend for "Start In" field to choose a path where you will keep your notebooks or you can just place the script there.
