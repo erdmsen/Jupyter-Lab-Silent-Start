@@ -1,7 +1,7 @@
 # Jupyter-Lab-Silent-Start
 #### To run Jupyter-lab without an initial terminal window
 
-The command window which is running before the launch of jupyterlab can be distracting and gets in the way. This is to help everybody to complain about the same problem, and also aimed to be an example for running programs in the background in Windows (considering custom EXE files created with the same purpose can be problematic).
+The command window which is running before the launch of jupyterlab can be distracting and gets in the way. This is to help everybody to complain about the same problem, and also aimed to be an example for running programs in the background for Windows (considering custom EXE files created with the same purpose can be problematic).
 
 ## 1- Write the vbs script
 
